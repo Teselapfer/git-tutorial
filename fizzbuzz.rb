@@ -3,7 +3,7 @@ while i <= 20
             when i % 15 == 0 then 'FizzBuzz!' 
             when i % 3 == 0 then 'Fizz!' 
             when i % 5 == 0 then 'Buzz!'
-            else "#{i}"
+            else "#{i!}"
          end
     i += 1
 end
