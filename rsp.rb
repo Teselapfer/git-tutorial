@@ -1,3 +1,10 @@
+def hands(hand)
+    case hand
+        when 1 then 'rock'
+        when 2 then 'scissors'
+        when 3 then 'paper'
+    end
+end
 
 loop do   
     puts 'choose your hand. 1.rock 2.scissors 3.paper'
